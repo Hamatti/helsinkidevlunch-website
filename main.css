@@ -47,3 +47,7 @@ article > * + h2 {
 .next-event {
   font-weight: 900;
 }
+
+.tampere {
+  font-size: 0.7em;
+}
