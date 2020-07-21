@@ -51,3 +51,8 @@ article > * + h2 {
 .tampere {
   font-size: 0.7em;
 }
+
+.warning {
+  padding: 1em;
+  background: #c5c577;
+}
