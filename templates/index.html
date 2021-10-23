@@ -4,6 +4,12 @@
     <title>Helsinki Dev Lunch</title>
 
     <link rel="stylesheet" href="main.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Helsinki Dev Lunch event feed"
+      href="feed.xml"
+    />
 
     <meta property="og:title" content="Helsinki Dev Lunch" />
     <meta property="og:type" content="website" />
@@ -19,22 +25,10 @@
       <h1>Helsinki Dev Lunch</h1>
       <p>Monthly lunch gathering for software developers in Helsinki.</p>
       <p class="next-event">
-        Next lunch:
-        <em
-          >lunches are on hold indefinitely until the situation with COVID-19
-          clears</em
-        >
+        Next lunch: {{ it.datetime }} at
+        <a href="{{it.url}}">{{it.location}}</a>
       </p>
     </main>
-
-    <section class="warning">
-      <strong>Pandemic note!</strong>
-      <p>
-        Due to the current situation, let's do our best to keep everyone safe.
-        If you or someone in your household has any symptoms, please stay at
-        home.
-      </p>
-    </section>
 
     <article>
       <div>
@@ -43,11 +37,6 @@
             <strong>What?</strong> A monthly casual gathering of software
             developers over lunch in Helsinki. No corporate sponsorships, no
             agendas, no talks. Just good food and great people.
-          </li>
-          <li>
-            <strong>Where?</strong>At
-            <a href="http://bruuveri.fi/">Bruuveri</a> in Kamppi Shopping
-            Center, Helsinki.
           </li>
           <li><strong>When?</strong> Once a month, see above for next one!</li>
         </ul>

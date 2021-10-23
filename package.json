@@ -1,0 +1,26 @@
+{
+  "name": "helsinkidevlunch-website",
+  "version": "1.0.0",
+  "description": "Website for Helsinki Dev Lunch",
+  "main": "index.js",
+  "scripts": {
+    "add-event": "node ./scripts/add-event.js",
+    "build": "node ./scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamatti/helsinkidevlunch-website.git"
+  },
+  "author": "Juha-Matti Santala <juhamattisantala@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hamatti/helsinkidevlunch-website/issues"
+  },
+  "homepage": "https://github.com/Hamatti/helsinkidevlunch-website#readme",
+  "devDependencies": {
+    "inquirer": "^8.2.0",
+    "inquirer-datepicker-prompt": "^0.4.2",
+    "squirrelly": "^8.0.8",
+    "uuid": "^8.3.2"
+  }
+}

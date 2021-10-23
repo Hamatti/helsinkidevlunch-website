@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    
+    <title>Helsinki Dev Lunch</title>
+    <link href="https://helsinkidevlunch.org/" />
+    <updated>{{it.updatedAt}}</updated>
+    <author>
+        <name>Helsinki Dev Lunch</name>
+    </author>
+    <id>https://helsinkidevlunch.org/</id>
+
+    {{@each(it.events) => event, index}}
+    <entry>
+        <title>New lunch scheduled: {{event.humanDatetime}}</title>
+        <link href="https://helsinkidevlunch.org/?d={{event.uuid}}" />
+        <id>https://helsinkidevlunch.org/?d={{event.uuid}}</id>
+        <updated>{{event.updated}}</updated>
+        <content type="html">
+            <h1>New Helsinki Dev Lunch scheduled!</h1>
+            <p>
+                Our next lunch will take place at <a href="{{event.url}}">{{event.location}}</a> on {{event.humanDatetime}}.
+            </p>
+            <p>
+                See more at <a href="https://helsinkidevlunch.org/">https://helsinkidevlunch.org/</a>.
+            </p>
+        </content>
+    </entry>
+    {{/each}}
+</feed>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    
+    <title>Helsinki Dev Lunch</title>
+    <link href="https://helsinkidevlunch.org/" />
+    <updated>2021-10-23T12:12:53.563Z</updated>
+    <author>
+        <name>Helsinki Dev Lunch</name>
+    </author>
+    <id>https://helsinkidevlunch.org/</id>
+
+        <entry>
+        <title>New lunch scheduled: 03.01 08:08</title>
+        <link href="https://helsinkidevlunch.org/?d=dafab721-7612-48b5-8144-1997b9bdbcbd" />
+        <id>https://helsinkidevlunch.org/?d=dafab721-7612-48b5-8144-1997b9bdbcbd</id>
+        <updated>2021-10-23T12:12:01.929Z</updated>
+        <content type="html">
+            <h1>New Helsinki Dev Lunch scheduled!</h1>
+            <p>
+                Our next lunch will take place at <a href="https://bruuveri.fi/en">Bruuveri</a> on 03.01 08:08.
+            </p>
+            <p>
+                See more at <a href="https://helsinkidevlunch.org/">https://helsinkidevlunch.org/</a>.
+            </p>
+        </content>
+    </entry>
+        <entry>
+        <title>New lunch scheduled: 11.12 12:00</title>
+        <link href="https://helsinkidevlunch.org/?d=3b637865-dbcb-45e4-af29-d41c74200c00" />
+        <id>https://helsinkidevlunch.org/?d=3b637865-dbcb-45e4-af29-d41c74200c00</id>
+        <updated>2021-10-23T11:26:07.851Z</updated>
+        <content type="html">
+            <h1>New Helsinki Dev Lunch scheduled!</h1>
+            <p>
+                Our next lunch will take place at <a href="https://bruuveri.fi/en/">Bruuveri</a> on 11.12 12:00.
+            </p>
+            <p>
+                See more at <a href="https://helsinkidevlunch.org/">https://helsinkidevlunch.org/</a>.
+            </p>
+        </content>
+    </entry>
+        <entry>
+        <title>New lunch scheduled: 17.11 12:00</title>
+        <link href="https://helsinkidevlunch.org/?d=68081d54-8fbc-4007-8dd6-972a1589573b" />
+        <id>https://helsinkidevlunch.org/?d=68081d54-8fbc-4007-8dd6-972a1589573b</id>
+        <updated>2021-10-23T10:26:07.851Z</updated>
+        <content type="html">
+            <h1>New Helsinki Dev Lunch scheduled!</h1>
+            <p>
+                Our next lunch will take place at <a href="https://bruuveri.fi/en/">Bruuveri</a> on 17.11 12:00.
+            </p>
+            <p>
+                See more at <a href="https://helsinkidevlunch.org/">https://helsinkidevlunch.org/</a>.
+            </p>
+        </content>
+    </entry>
+        <entry>
+        <title>New lunch scheduled: 14.10 12:00</title>
+        <link href="https://helsinkidevlunch.org/?d=28cb2f9f-10de-4458-a85b-7406cc58fd85" />
+        <id>https://helsinkidevlunch.org/?d=28cb2f9f-10de-4458-a85b-7406cc58fd85</id>
+        <updated>2021-10-07T10:26:07.851Z</updated>
+        <content type="html">
+            <h1>New Helsinki Dev Lunch scheduled!</h1>
+            <p>
+                Our next lunch will take place at <a href="https://bruuveri.fi/en/">Bruuveri</a> on 14.10 12:00.
+            </p>
+            <p>
+                See more at <a href="https://helsinkidevlunch.org/">https://helsinkidevlunch.org/</a>.
+            </p>
+        </content>
+    </entry>
+    </feed>
